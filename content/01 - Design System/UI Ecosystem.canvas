@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "00 - Start Here/Design System Home.md",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 240
+    },
+    {
+      "id": "tokens",
+      "type": "file",
+      "file": "01 - Design System/Design Tokens.md",
+      "x": -430,
+      "y": 360,
+      "width": 340,
+      "height": 280
+    },
+    {
+      "id": "type",
+      "type": "file",
+      "file": "01 - Design System/Typography & Branding.md",
+      "x": -60,
+      "y": 360,
+      "width": 340,
+      "height": 260
+    },
+    {
+      "id": "motion",
+      "type": "file",
+      "file": "01 - Design System/Interaction & Motion.md",
+      "x": 310,
+      "y": 360,
+      "width": 340,
+      "height": 260
+    },
+    {
+      "id": "auth",
+      "type": "file",
+      "file": "02 - Components/Authentication & OTP.md",
+      "x": -430,
+      "y": 760,
+      "width": 340,
+      "height": 300
+    },
+    {
+      "id": "ai",
+      "type": "file",
+      "file": "02 - Components/AI Assistant Widget.md",
+      "x": -60,
+      "y": 760,
+      "width": 340,
+      "height": 300
+    },
+    {
+      "id": "footer",
+      "type": "file",
+      "file": "02 - Components/Footer & Brand Attribution.md",
+      "x": 310,
+      "y": 760,
+      "width": 340,
+      "height": 260
+    },
+    {
+      "id": "check",
+      "type": "file",
+      "file": "06 - Operations/Frontend Quality Gate.md",
+      "x": 0,
+      "y": 1160,
+      "width": 340,
+      "height": 280
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "tokens",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "type",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "motion",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "auth",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "ai",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "footer",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "auth",
+      "fromSide": "bottom",
+      "toNode": "check",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "ai",
+      "fromSide": "bottom",
+      "toNode": "check",
+      "toSide": "top"
+    }
+  ]
+}
